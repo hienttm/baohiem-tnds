@@ -1,0 +1,56 @@
+body {
+	overflow-x: hidden;
+}
+
+
+.owl-carousel {
+	direction: ltr;
+}
+
+.owl-carousel .owl-item {
+	direction: rtl;
+}
+
+.main-slider .image-layer:before {
+	background-image: linear-gradient(-90deg, rgb(243, 246, 248) 0%, rgba(243, 246, 248, 0) 100%)
+}
+
+.why-choose-one-img {
+	top: -75px;
+	left: -140px;
+}
+
+.why-choose-one-img img {
+	box-shadow: 14.979px 0.785px 60px 0px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-container-rtl .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	background-image: none !important;
+}
+
+.swiper-container-rtl .swiper-button-prev {
+	right: 0 !important;
+}
+
+.swiper-container-rtl .swiper-button-next {
+	left: 0 !important;
+}
+
+.bootstrap-select:not(.input-group-btn) {
+	width: 100%;
+}
+
+
+.get-insurance__input-box input[type="email"],
+.get-insurance__input-box .bootstrap-select>.dropdown-toggle {
+	direction: rtl;
+}
+
+.get-insurance__input-box .bootstrap-select .dropdown-toggle .filter-option {
+	text-align: right;
+}
+
+.site-footer-bg {
+	width: 100%;
+}
